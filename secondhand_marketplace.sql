@@ -40,6 +40,13 @@ CREATE TABLE `cart` (
 -- Table structure for table `orders`
 --
 
+CREATE DATABASE IF NOT EXISTS secondhand_marketplace.sql
+DEFAULT CHARACTER SET utf8mb4
+COLLATE utf8mb4_general_ci;
+USE secondhand_marketplace.sql;
+
+-- -----------------------------------------------------
+
 CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
