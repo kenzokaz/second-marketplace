@@ -22,6 +22,11 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+CREATE DATABASE IF NOT EXISTS secondhand_marketplace.sql
+DEFAULT CHARACTER SET utf8mb4
+COLLATE utf8mb4_general_ci;
+USE secondhand_marketplace.sql;
+-- --------------------------------------------------------
 
 --
 -- Table structure for table `cart`
@@ -39,11 +44,6 @@ CREATE TABLE `cart` (
 --
 -- Table structure for table `orders`
 --
-
-CREATE DATABASE IF NOT EXISTS secondhand_marketplace.sql
-DEFAULT CHARACTER SET utf8mb4
-COLLATE utf8mb4_general_ci;
-USE secondhand_marketplace.sql;
 
 -- -----------------------------------------------------
 
