@@ -3,7 +3,7 @@
 A full-stack buy-and-sell web application for electronics, clothing, books, vinyl, collectibles, and more. Built with a PHP/MySQL backend and Bootstrap 5 frontend.
 
 > 📺 **[Watch the demo video →](https://youtu.be/_Sge3S8YXlA)**
-
+> This was a University Project
 ---
 
 ## ✨ Features
